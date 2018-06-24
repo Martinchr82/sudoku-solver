@@ -3,3 +3,4 @@ compiler: g++
 script:
  - cmake .
  - make
+ - ./SudokuSolverBenchmark top95.txt
