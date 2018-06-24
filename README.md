@@ -24,3 +24,5 @@ Additionally the program will output the average time it takes to solve the sudo
 ```bash
 usage: SudokuSolverBenchmark [filename]
 ```
+
+The **sets** folder contains some files with sudoku puzzles, found on the internet.

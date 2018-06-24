@@ -3,4 +3,11 @@ compiler: g++
 script:
  - cmake .
  - make
- - ./SudokuSolverBenchmark top95.txt
+ - ./SudokuSolverBenchmark sets/easy50.txt
+ - ./SudokuSolverBenchmark sets/top95.txt
+ - ./SudokuSolverBenchmark sets/hardest.txt
+ - ./SudokuSolverBenchmark sets/sudoku17.txt
+ - ./SudokuSolverBenchmark sets/top20.txt
+ - ./SudokuSolverBenchmark sets/top95.txt
+ - ./SudokuSolverBenchmark sets/top1465.txt
+ - ./SudokuSolverBenchmark sets/top50000.sdm
